@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
+  color: #343a40;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+
+
+.number {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.title, .icon {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.item {
+  border-top: 4px solid #ccc;
+  padding: 10px;
+  width: 750px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.text {
+  text-align: justify;
+  padding-left: 75px;
+  padding-right: 55px;
+}
+
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .number,
+.open .title {
+  color: #087f5b;
+}
